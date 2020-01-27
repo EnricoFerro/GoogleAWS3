@@ -11,7 +11,7 @@ Andare su [Google Storage Setting](https://console.cloud.google.com/projectselec
 
 Generare una chiave id e un secret:
 
-![](images/GoogleStorageSettingsecret.png)
+![](images/GoogleStorageSettingSecret.png)
 
 Copiare la Chiave di accesso e il secret e metterli in un file chiamato .env:
 
