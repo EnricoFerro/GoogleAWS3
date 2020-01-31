@@ -8,6 +8,7 @@ import { enviroment } from './environments/environments';
 AWS.config.update({
     accessKeyId: enviroment.accessKeyId,
     secretAccessKey: enviroment.secretAccessKey,
+    region: enviroment.region
 });
 
 const filePath = path.join(__dirname, '..', '/data/test.txt');
@@ -34,4 +35,3 @@ s3.upload(params, (err, data) => {
         console.log('Uploaded in:', data.Location);
     }
 });
-
