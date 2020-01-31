@@ -5,13 +5,13 @@ Lanciare:
 npm install
 ```
 
-Andare su [Google Storage Setting](https://console.cloud.google.com/projectselector2/storage/settings) > Crea una chiave per account di servizio
+Andare su [Google Storage Setting](https://console.cloud.google.com/projectselector2/storage/settings) > Interoperabilità > Crea una chiave per account di servizio
 
-![](images/GoogleStorageSetting.png)
+![](images/GoogleStorageSetting_it.png)
 
 Generare una chiave id e un secret:
 
-![](images/GoogleStorageSettingSecret.png)
+![](images/GoogleStorageSettingSecret_it.png)
 
 Copiare la Chiave di accesso e il secret e metterli in un file chiamato .env:
 
