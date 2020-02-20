@@ -1,6 +1,11 @@
 # Create a Google Storage Update in NodeJs with AWS S3
 
-Launch:
+Proof of Comcept for use AWS S3 for Nodejs to connect to Google Storage
+
+Prerequisites is to have a Billing Account on Google Cloud Platoform
+
+## Launch
+
 ```
 npm install
 ```
