@@ -1,8 +1,8 @@
 # Create a Google Storage Update in NodeJs with AWS S3
 
-Proof of Comcept for use AWS S3 for Nodejs to connect to Google Storage
+Proof of Concept for use [AWS S3 for Nodejs](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-creating-buckets.html) to connect to [Google Storage](https://cloud.google.com/storage) using using [Cloud Storage HMAC keys](https://cloud.google.com/storage/docs/authentication/hmackeys)
 
-Prerequisites is to have a Billing Account on Google Cloud Platoform
+Prerequisites is to have a [Billing Account](https://cloud.google.com/billing/docs/how-to/manage-billing-account) on Google Cloud Platoform
 
 ## Launch
 
@@ -17,6 +17,13 @@ Go to [Google Storage Setting](https://console.cloud.google.com/projectselector2
 Generate a key id and a secret:
 
 ![](images/GoogleStorageSettingSecret_en.png)
+
+In alternative it is possible use gcloud command:
+```
+gsutil hmac create ${SERVICE_ACCOUNT}
+Access ID:   GOOG1********
+Secret:      x5X_*********
+```
 
 Copy the access key and the secret an put it in a file called .env:
 
